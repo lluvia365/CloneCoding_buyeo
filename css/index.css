@@ -149,25 +149,58 @@ a { text-decoration: none; color:#222328 }
     height: 100px;
     display: flex;
     flex-direction: column;
+    background:#FFF;
 }
 
 #sns {
     width:100%;
-    line-height: 3rem;
-    margin: auto;
-    background:yellow;
+    line-height: 2rem;
+    text-align: center;
+    padding-top:10px;
 }
 
 #sns img {
     width:30px;
-    margin: auto;
+}
+
+#content3 {
+    width:200px;
+    height: 100px;
+    background:#FFF;
 }
 
 #family { 
     width: 100%;
     line-height: 3rem;
-    background:orange;
+}
+
+#modal {
+    position:fixed;
+    top:0; left:0;
+    width:100%; height: 100%;
+    background: rgba(0,0,0,.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalContents {
+    width:800px;  /* 세로값은 정할수 없음 */
+    background:#FFF;
+    padding:10px;    
+}
+
+#modalContents>h2 { margin-bottom: 30px }
+#modalContents>p { line-height: 2rem }
+
+#modalClose {
+    display: block;  /* margin값으로 위치조정위해 */
+    margin:20px 0 20px auto;
+    background:#b4a4e5; color:#FFF;
+    border:none; padding:10px;
+    cursor: pointer;
 }
 
 
+}
 
