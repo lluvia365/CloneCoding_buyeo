@@ -67,6 +67,7 @@ a { text-decoration: none; color:#222328 }
     width:100%;
     height:200px;
     display: flex; flex-wrap: wrap;
+    background:#74e23b;
 }
 
 #box1 {
@@ -75,13 +76,13 @@ a { text-decoration: none; color:#222328 }
 }
 
 .button {
-    line-height: 20px;
+    line-height: 30px;
+    border:none;
     cursor: pointer;   
 }
 
 .btn2{
     background:#999;
-    border:none;
 }
 
 #notice {
@@ -92,7 +93,7 @@ a { text-decoration: none; color:#222328 }
 }
 
 .list {
-    line-height: 2rem;
+    line-height: 2.5rem;
     display: flex;
     justify-content: space-between;
     font-size: 0.9rem;
@@ -104,16 +105,28 @@ a { text-decoration: none; color:#222328 }
     width:260px;
     height: 200px;
     margin-right: 10px;
-    border:1px solid red;
 }
 
 #imgBox {
-    width:60px;
-    border:1px solid green;
+    width:100%;
+    height: 180px;
+    background:#FFF;
+    display: flex;
 }
 
+#imgBox img { 
+    width:80%;
+    height:80%;
+    display: block;
+}
 
 #box2{ width:260px }
+
+#box2 img { 
+    width:100%;
+    height: 100%;
+    display: block;
+}
 
 #foot {
     width:100%;
@@ -122,14 +135,25 @@ a { text-decoration: none; color:#222328 }
 }
 
 #content1 {
-    width:500px;
+    width:600px;
     line-height: 3rem;
+    text-align: center;
+}
+
+#content2 {
+    width:200px;
+    display: flex;
+    flex-direction: column;
 }
 
 #sns {
-    width:300px;
+    background:yellow;
+    line-height: 
 }
 
+#family {
+    border:1px solid green;
+}
 
 
 
